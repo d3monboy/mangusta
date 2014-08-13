@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.3/jquery.mobile.min.css" />
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.3/jquery.mobile.min.js"></script>
+
+</head>
+<style>
+	h1{
+		text-align:center;	
+		background:red;
+		}
+	#pagina_unu{
+		background-color:cyan;
+		text-align:center;
+		}
+</style>
+<body>
+<div data-role="page" id="pagina_unu">
+	<div data-role="header">
+		<h1> mangusta </h1>
+	</div>
+		<div data-role="main">
+			<p> am avut si eu candva o mangusta!!!!
+			</p>
+			<a href="#pagina_doi">next</a>
+		</div>
+			<div data-role="footer">
+				<h4> copyright mungusta company &copy;2014</h4>
+			</div>
+</div>
+<div data-role="page" id="pagina_doi" data-dialog="true">
+	<div data-role="header">
+		<h1> mangusta </h1>
+	</div>
+		<div data-role="main">
+			<p> tot despre mangusta mea o sa vorbim si aici!!!!
+			</p>
+			<a href="#pagina_unu" data-transition="flip" class="ui-btn">tap</a>
+<hr>
+	<div data-role="controlgroup" data-type="horizontal">
+		<a href="#" class="ui-btn  ui-btn-inline ui-btn-icon-left ui-icon-video">camera</a>
+		<a href="#" class="ui-btn  ui-btn-inline ui-btn-icon-left ui-icon-grid">menu</a>
+		<a href="#" class="ui-btn  ui-btn-inline ui-btn-icon-left ui-icon-home">home</a>
+		<a href="#" class="ui-btn  ui-btn-inline ui-btn-icon-left ui-icon-back">back</a>
+		<a href="#" class="ui-btn  ui-btn-inline ui-btn-icon-left ui-icon-forward">next</a>
+		</div>
+			<div data-role="footer">
+				<h4> copyright mungusta company &copy;2014</h4>
+			</div>
+</div>
+</body>
+</html>
